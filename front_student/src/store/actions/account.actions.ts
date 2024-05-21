@@ -7,7 +7,7 @@ export const REGISTER: string = "REGISTER";
 export const LOG_OUT: string = "LOG_OUT";
 
 const instance = axios.create({
-    baseURL: 'http://' + process.env.REACT_APP_API_URL,
+    baseURL: 'http://localhost:3000',
     timeout: 5000,
     headers: {}
 });
